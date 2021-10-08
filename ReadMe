@@ -1,7 +1,8 @@
 The instruction for recreating the prediction result is described below,
 
-However, The data sets cant be uploaded to the repository due to the large file size (GB). The original data set provided by ITU can be found here :
-The initial (pre-processed + EDA ) data can be found here :
+However, The data sets cant be uploaded to the repository due to the large file size (GB). The original data set provided by ITU can be found here : https://drive.google.com/drive/folders/1a6yr_DUqUgvucCirYvurPGAx_gvbCXWk?usp=sharing
+
+The initial (pre-processed + EDA ) data can be found here : https://drive.google.com/drive/folders/1Zxtc5jNVmoNlTchSmzqXA8w77byU7DWN?usp=sharing
 
 Project Structure
 Input dataset :
