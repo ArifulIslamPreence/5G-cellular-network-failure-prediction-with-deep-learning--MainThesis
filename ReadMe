@@ -73,9 +73,11 @@ Model Training and validation :
 
 << Different Models ( Neural Network and supervised )  are implemented according to the dataset requirement. Load the time series splitted train and test set and start the training. >>
 
-    Run DAE.py ( Deep Auto Encoder model )
+    
+    Run model_sol.py ( Supervised model )
         - Load train and test set.
-        - output train test reconstruction loss and final failure classification result.
+        - Run # ensamble model section only. output average prediction score, confusion matrix scores of three combined models ( RF,LGBM, XBM )
+        - Run # SVM model section only. output prediction score, confusion matrix scores for Support Vector Machine (SVM)  validation.
 
     Run ffnn.py ( Fully Connected Feed Forward Neural Network model )
         - Load train and test set.
@@ -86,8 +88,3 @@ Model Training and validation :
         - Calculate the MAE
         - Select optimal threshold for prediction 
 
-
-    Run model_sol.py ( Supervised model )
-        - Load train and test set.
-        - Run # ensamble model section only. output average prediction score, confusion matrix scores of three combined models ( RF,LGBM, XBM )
-        - Run # SVM model section only. output prediction score, confusion matrix scores for Support Vector Machine (SVM)  validation.
