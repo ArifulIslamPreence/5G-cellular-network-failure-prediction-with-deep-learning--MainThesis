@@ -1,0 +1,92 @@
+The instruction for recreating the prediction result is described below,
+
+However, The data sets cant be uploaded to the repository due to the large file size (GB). The original data set provided by ITU can be found here :
+The initial (pre-processed + EDA ) data can be found here :
+
+Project Structure
+Input dataset :
+    distance : 1. Original distance matrix between rl and ws. 'distance.csv'
+               2.Correlation for 5 closest distanced ws with rl. 'distance_w_five.csv'
+               3.Correlation for average distanced ws with rl. 'effective_distance_min_max.csv'
+               4.Correlation for maximum range in shortest distance. 'min_max_all.csv'
+               5.Correlation for maximum range in shortest distance removing the outlier ws. 'opt0-dis.csv'
+
+    Trainset : 1. forecast dataset of ws for one day forecasting. 'met-forecast_day1.csv'
+               2. original kpis dataset. 'rl-kpis.csv'
+               3. kpis dataset with forecasted datetime added. 'rl-kpis_mod.csv'
+               4. kpis dataset with history_{feature_name} columns and spatial data added. 'rl-kpis_history.csv'
+
+output_dataset :
+    train_set:
+
+    dq_report : Data quality report for continous and categorical features of the original datasets.
+    cv_train_test : Cross validated time series train test set.
+                    shortest = five/ three shortest distanced preprocessed Time series train test set
+                    outlierfree = Maximum of the shortest distanced (outlier ws removed) preprocessed Time series train test set
+    shortest_distance = dataset preprocessed for closest 5 / closest 3 distanced ws
+    avg_distance = dataset preprocessed for average distanced ws
+    min_max_distanced =  dataset preprocessed for maximum range value of the shortest distacned ws including outlier.
+    outlier_removed = dataset preprocessed for maximum range value of the shortest distacned ws excluding outlier.
+
+    Datasets :
+        1. Combined the kpis_mod and met-forecast_day1. 'combined_optimized_v3.csv"
+        2. Combined history kpis with combined optimized. 'history_merged.csv'
+        3. Removed kpis_mod feature keeping target and history + forecast features. ' final_merge.csv'
+        4. filled out missing data. 'final_merge_filled.csv'
+        5. Applied one hot encoding on the categorical data. ' encoded_train_optimized_one.csv'
+        6. Applied binary encoding on the categorical data. ' encoded_train_optimized_binary.csv'
+
+Project execution tree :
+
+Data Processing :
+
+    Run effective_distance.py * ( Takes some time )
+        - output the outlier free correlation of ws and rl.
+
+        Run combined.py *** ( Takes a very long time to finish )
+            - output the combined dataset according to the effective distanced correlation and datetime of both kpis_mod and met-forecast_day1 dataset
+
+            Run kpi_process.py *
+                - Run the # kpis modification section only. output modified kpis with forecast datetime
+                - Run the # kpis history section only. output the history feature and data of kpis
+                - Run # Kpis's merging section  only. output the merged data of kpis mod and kpis history. Merged on mlid and datetime. ( Takes long time to finish )
+
+                << Manually change the rlf + history_rlf label. FALSE = 0, TRUE = 1 >>
+
+                Run fillout.py
+
+
+                    - separately fills the missing data of continous and categorical features.
+                    - output dataset with no NaN or missing values.
+
+                    Run encoding.py *** ( Takes a very long time to finish )
+                        - Run # one hot encoding section only. output the one hot encoded dataset. ( Takes long time to finish )
+                        - Run # Binary encoding section only. output the binary encoded dataset
+
+                        Run spitting.py ** ( takes long time )
+                            - output train and test set. Customized rollover TimeSeries split algorithm is applied with initial trainset = 30 days, testset = next 15 days.
+                            - Finish running the program. final train and test set is prepared and cross validated with CV score and train test set size.
+
+
+Model Training and validation :
+
+<< Different Models ( Neural Network and supervised )  are implemented according to the dataset requirement. Load the time series splitted train and test set and start the training. >>
+
+    Run DAE.py ( Deep Auto Encoder model )
+        - Load train and test set.
+        - output train test reconstruction loss and final failure classification result.
+
+    Run ffnn.py ( Fully Connected Feed Forward Neural Network model )
+        - Load train and test set.
+        - output cross validation, cost value and classification score
+        
+    Run LSTM_AE.py (LSTM-Autoencoder implemented model)
+        - It will load the training data and start training
+        - Calculate the MAE
+        - Select optimal threshold for prediction 
+
+
+    Run model_sol.py ( Supervised model )
+        - Load train and test set.
+        - Run # ensamble model section only. output average prediction score, confusion matrix scores of three combined models ( RF,LGBM, XBM )
+        - Run # SVM model section only. output prediction score, confusion matrix scores for Support Vector Machine (SVM)  validation.
