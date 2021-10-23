@@ -17,8 +17,7 @@ ax = df.hist(column= col, bins=25, grid=False, figsize=(25,22), color='#86bf91' 
 
 
 
-
-    # Set x-axis label
+# Set x-axis label
 ax.set_xlabel("Session Duration (Seconds)", labelpad=20, weight='bold', size=12)
 
 

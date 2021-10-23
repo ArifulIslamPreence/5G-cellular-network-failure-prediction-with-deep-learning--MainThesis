@@ -59,16 +59,16 @@ y = [1.4716, 0.9044, 0.6991, 0.6002, 0.5466, 0.5085, 0.4756, 0.4485, 0.4279, 0.4
      0.2994, 0.2947, 0.2938, 0.2899, 0.2901, 0.2936, 0.2846, 0.2828, 0.2804, 0.2777, 0.2742, 0.2727, 0.2746, 0.2698,
      0.2686, 0.2665, 0.2690, 0.2663, 0.2635, 0.2631, 0.2625]
 
-y1 = list(reversed(y))
+#y1 = list(reversed(y))
 
 _, ax = plt.subplots(1, 1, figsize=(15, 10))
 plt.xlabel("epochs")
-plt.ylabel("cost ")
-ax.set_title('GAN Loss Convergence')
+plt.ylabel("Reconstruction cost ")
+ax.set_title('LSTM - AE Loss plot')
 
-ax.plot(x, 'b', label="Generator loss")
+ax.plot(x, 'b', label="Train loss")
 
-ax.plot(y1, 'r', label="Discriminator loss")
+ax.plot(y, 'r', label="Validation loss")
 ax.legend()
 plt.show()
 
