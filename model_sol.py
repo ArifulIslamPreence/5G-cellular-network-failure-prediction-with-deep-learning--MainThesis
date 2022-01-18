@@ -1,3 +1,5 @@
+# Reimplementation of the NEC solution. ( Rusty )
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -52,34 +54,34 @@ rf_probs = pd.DataFrame(rf_probs)
 rf_probs['pred'] = rf_probs
 
 rf_probs.to_csv("../output_dataset/test_set/feb/pred_feb/pred_test_feb.csv")
-# plt.figure()
+plt.figure()
 # sns.heatmap(conf_matrix, annot=True, annot_kws={"size": 16}, fmt='g')
 # plt.title('RF Classification - Confusion Matrix')
 print(classification_report(y_test, rf_predictions, target_names=["regular", "rlf"]))
 
-# model = RandomForestClassifier(n_estimators=100,
-#                                bootstrap=True)
-#
-# model.fit(x_train_scale, y_train)
+ model = RandomForestClassifier(n_estimators=100,
+                                bootstrap=True)
+
+model.fit(x_train_scale, y_train)
 #
 # # Actual class predictions
-# rf_predictions = model.predict(x_test)
+rf_predictions = model.predict(x_test)
 # # Probabilities for each class
-# rf_probs = model.predict_proba(x_test)[:, 1]
-# rf_probs = pd.DataFrame(rf_probs)
-# rf_probs['pred'] = rf_probs
+ rf_probs = model.predict_proba(x_test)[:, 1]
+ rf_probs = pd.DataFrame(rf_probs)
+ rf_probs['pred'] = rf_probs
 #
-# rf_probs.to_csv("../output_dataset/test_set/feb/pred_feb/pred_test_feb.csv")
-# from sklearn.metrics import roc_auc_score
+ rf_probs.to_csv("../output_dataset/test_set/feb/pred_feb/pred_test_feb.csv")
+from sklearn.metrics import roc_auc_score
 #
 # # Calculate roc auc
-# roc_value = roc_auc_score(y_test, rf_probs)
+ roc_value = roc_auc_score(y_test, rf_probs)
 #
-# conf_matrix = confusion_matrix(y_test, rf_predictions)
+ conf_matrix = confusion_matrix(y_test, rf_predictions)
 #
-# plt.figure()
-# sns.heatmap(conf_matrix, annot=True, annot_kws={"size": 16}, fmt='g')
-# plt.title('RF Classification - Confusion Matrix')
-# print(classification_report(y_test, rf_predictions, target_names=["regular", "rlf"]))
+ plt.figure()
+ sns.heatmap(conf_matrix, annot=True, annot_kws={"size": 16}, fmt='g')
+ plt.title('RF Classification - Confusion Matrix')
+ print(classification_report(y_test, rf_predictions, target_names=["regular", "rlf"]))
 
 # xgboost
