@@ -1,3 +1,5 @@
+# No use of this file. code used from : https://github.com/angus924/rocket
+
 import numpy as np
 from numba import njit, prange
 
