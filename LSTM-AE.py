@@ -40,17 +40,17 @@ dimension = len(list(data_train_col.columns))
 
 # setting custom lookback index
 
-def temporalize(X, y, lookback):
-    output_X = []
-    output_y = []
-    for i in range(len(X) - lookback - 1):
-        t = []
-        for j in range(1, lookback + 1):
-            # looking at the past data
-            t.append(X[[(i + j + 1)], :])
-        output_X.append(t)
-        output_y.append(y[i + lookback + 1])
-    return np.squeeze(np.array(output_X)), np.array(output_y)
+# def temporalize(X, y, lookback):
+#     output_X = []
+#     output_y = []
+#     for i in range(len(X) - lookback - 1):
+#         t = []
+#         for j in range(1, lookback + 1):
+#             # looking at the past data
+#             t.append(X[[(i + j + 1)], :])
+#         output_X.append(t)
+#         output_y.append(y[i + lookback + 1])
+#     return np.squeeze(np.array(output_X)), np.array(output_y)
 
 
 # def flatten(X):
@@ -60,7 +60,7 @@ def temporalize(X, y, lookback):
 #         return flattened_X
 
 
-batch_size = 32
+batch_size = 32  # 1,8, 16, 3557 
 normalizer = preprocessing.StandardScaler()
 training = normalizer.fit_transform(data_train)
 # training = normalizer.fit(flatten(data_train))
