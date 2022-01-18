@@ -1,5 +1,7 @@
-'''Implementation of Variational Autoencoder Network for dataset reconstructing into normalized form.
+'''Implementation of  Autoencoder Network for dataset reconstructing into normalized form.
  The whole combined dataset is fed into model by spliting batches'''
+
+# Complete implementation of LSTM-AE
 
 import csv
 import numpy as np
