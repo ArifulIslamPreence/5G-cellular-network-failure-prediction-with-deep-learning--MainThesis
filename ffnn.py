@@ -1,3 +1,5 @@
+# fULLY CONNECTED NEURAL NET MODEL. prediction results used as a baseline 
+
 from pandas import read_csv
 from keras.models import Sequential
 from keras.layers import Dense
