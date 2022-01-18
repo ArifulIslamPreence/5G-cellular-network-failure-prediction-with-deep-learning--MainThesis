@@ -1,3 +1,5 @@
+# Used the file  for performing the expanding window time series cross-validation. Code taken from : https://gist.github.com/orhermansaffar/2bd2342c81026de1c09c97d66226eb46
+
 import pandas as pd
 import datetime
 from datetime import datetime as dt
