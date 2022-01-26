@@ -16,7 +16,7 @@ features = len(df1.columns)
 X = StandardScaler().fit_transform(df1)
 # PCA applied
 
-pca_data = PCA(n_components= 0.95)
+pca_data = PCA(n_components= 0.90)
 pca_data.fit(X)
 pca_reduced = pca_data.transform(X)
 x,n = pca_reduced.shape
