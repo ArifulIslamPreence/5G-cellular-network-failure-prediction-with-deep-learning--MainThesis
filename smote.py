@@ -1,3 +1,5 @@
+#Used ADASYN and SMOTE both. only used SMOTE result
+
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 from imblearn.over_sampling import SMOTE
