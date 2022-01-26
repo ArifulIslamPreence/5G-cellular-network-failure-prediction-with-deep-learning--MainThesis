@@ -59,6 +59,7 @@ dimension = len(list(data_train_col.columns))
 #         flattened_X[i] = X[i, (X.shape[1] - 1), :]
 #         return flattened_X
 
+#lookback = temporalize(data_train, target_train, 3599)
 
 batch_size = 32  # 1,8, 16, 3557 
 normalizer = preprocessing.StandardScaler()
@@ -76,7 +77,7 @@ test_tensor = test_tensor.float()
 test_X = testing
 test_Y = target_test.to_numpy()
 
-timesteps = 3559
+timesteps = len(lookback) 
 n_features = dimension
 batch_size = batch_size
 lr = 1e-3
