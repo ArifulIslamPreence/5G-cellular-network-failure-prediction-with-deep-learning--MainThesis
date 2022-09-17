@@ -1,0 +1,260 @@
+,station_no,datetime,report_time,weather_day1,temp_max_day1,temp_min_day1,humidity_max_day1,humidity_min_day1,wind_dir_day1,wind_speed_day1
+1,WS_17038,2019-01-02 00:00:00,morning,scattered clouds,15,10,74,50,188,15
+3,WS_17232,2019-01-02 00:00:00,morning,heavy rain showers,14,6,96,79,222,34
+5,WS_17233,2019-01-02 00:00:00,morning,heavy rain showers,14,7,88,54,237,46
+7,WS_17234,2019-01-02 00:00:00,morning,heavy rain showers,11,5,93,71,229,15
+9,WS_17300,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,14,6,95,58,184,47
+11,WS_17310,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,16,11,86,76,204,40
+13,WS_17375,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,15,8,91,62,225,36
+15,WS_17380,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,14,9,95,66,230,33
+17,WS_17465,2019-01-02 00:00:00,morning,scattered clouds,15,8,71,52,201,10
+19,WS_17569,2019-01-02 00:00:00,morning,rain,7,1,92,82,166,17
+21,WS_17626,2019-01-02 00:00:00,morning,scattered clouds,16,7,73,56,200,13
+23,WS_17714,2019-01-02 00:00:00,morning,scattered clouds,8,1,81,67,180,24
+25,WS_17775,2019-01-02 00:00:00,morning,scattered clouds,14,3,75,47,166,6
+27,WS_17850,2019-01-02 00:00:00,morning,heavy rain showers,11,5,95,76,234,18
+29,WS_17860,2019-01-02 00:00:00,morning,heavy rain showers,11,6,94,76,241,15
+31,WS_17881,2019-01-02 00:00:00,morning,heavy rain showers,12,6,96,80,192,21
+33,WS_17915,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,15,8,90,61,200,51
+35,WS_17926,2019-01-02 00:00:00,morning,sleet,5,-2,96,77,222,14
+37,WS_17927,2019-01-02 00:00:00,morning,sleet,5,2,96,95,204,34
+39,WS_17951,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,15,6,90,67,216,30
+41,WS_17952,2019-01-02 00:00:00,morning,sleet,5,-2,96,77,204,12
+43,WS_17953,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,15,6,83,64,199,42
+45,WS_17954,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,16,8,88,70,205,50
+47,WS_17970,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,15,6,93,65,230,38
+49,WS_17974,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,15,9,89,77,193,37
+51,WS_18012,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,8,4,96,85,208,25
+53,WS_18016,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,13,5,96,69,151,19
+55,WS_18023,2019-01-02 00:00:00,morning,heavy rain showers,12,4,96,72,150,20
+57,WS_18025,2019-01-02 00:00:00,morning,heavy rain showers,10,4,96,70,213,21
+59,WS_18026,2019-01-02 00:00:00,morning,heavy rain showers,12,4,93,72,233,18
+61,WS_18027,2019-01-02 00:00:00,morning,heavy rain showers,13,3,96,72,225,14
+63,WS_18047,2019-01-02 00:00:00,morning,sleet,6,2,96,91,197,35
+65,WS_18229,2019-01-02 00:00:00,morning,scattered clouds,14,3,76,56,203,12
+67,WS_18232,2019-01-02 00:00:00,morning,scattered clouds,16,4,69,45,144,7
+69,WS_18233,2019-01-02 00:00:00,morning,scattered clouds,16,7,70,49,197,9
+71,WS_18306,2019-01-02 00:00:00,morning,heavy thunderstorm with rain showers,15,8,91,61,197,44
+73,WS_18425,2019-01-02 00:00:00,morning,heavy rain showers,11,7,96,75,231,11
+75,WS_18426,2019-01-02 00:00:00,morning,heavy rain showers,12,4,96,77,233,20
+77,WS_18427,2019-01-02 00:00:00,morning,heavy rain showers,12,2,96,72,224,20
+79,WS_18428,2019-01-02 00:00:00,morning,heavy rain showers,11,4,94,72,220,17
+81,WS_18429,2019-01-02 00:00:00,morning,heavy rain showers,12,6,95,71,254,12
+83,WS_18430,2019-01-02 00:00:00,morning,heavy rain showers,11,5,95,77,237,17
+85,WS_18573,2019-01-02 00:00:00,morning,scattered clouds,13,6,80,58,143,12
+87,WS_18574,2019-01-02 00:00:00,morning,rain,14,6,70,52,171,9
+89,WS_18840,2019-01-02 00:00:00,morning,snow,0,-5,96,85,232,7
+91,WS_19124,2019-01-02 00:00:00,morning,heavy rain showers,11,2,96,77,202,22
+93,WS_19246,2019-01-02 00:00:00,morning,rain,14,4,70,56,170,17
+95,WS_19247,2019-01-02 00:00:00,morning,rain,14,4,69,57,164,20
+97,WS_17038,2019-01-03 00:00:00,morning,rain,17,10,86,51,107,20
+99,WS_17232,2019-01-03 00:00:00,morning,heavy rain,11,5,89,58,284,20
+101,WS_17233,2019-01-03 00:00:00,morning,heavy rain,12,6,82,55,203,27
+103,WS_17234,2019-01-03 00:00:00,morning,heavy rain,10,3,91,55,257,12
+105,WS_17300,2019-01-03 00:00:00,morning,light intensity shower rain,13,6,89,53,353,13
+107,WS_17310,2019-01-03 00:00:00,morning,heavy rain,16,11,87,69,213,28
+109,WS_17375,2019-01-03 00:00:00,morning,light intensity shower rain,14,8,72,50,229,20
+111,WS_17380,2019-01-03 00:00:00,morning,light intensity shower rain,13,9,81,58,277,20
+113,WS_17465,2019-01-03 00:00:00,morning,overcast clouds,17,8,88,50,299,17
+115,WS_17569,2019-01-03 00:00:00,morning,rain,8,1,92,84,162,23
+117,WS_17626,2019-01-03 00:00:00,morning,rain,17,10,89,53,294,16
+119,WS_17714,2019-01-03 00:00:00,morning,rain,10,2,96,69,191,40
+121,WS_17775,2019-01-03 00:00:00,morning,rain,18,4,85,48,44,11
+123,WS_17850,2019-01-03 00:00:00,morning,heavy rain,9,4,91,70,237,17
+125,WS_17860,2019-01-03 00:00:00,morning,heavy rain,9,6,88,65,240,16
+127,WS_17881,2019-01-03 00:00:00,morning,heavy rain,10,7,93,58,247,8
+129,WS_17915,2019-01-03 00:00:00,morning,light intensity shower rain,15,8,79,52,194,39
+131,WS_17926,2019-01-03 00:00:00,morning,sleet,5,-2,82,65,244,15
+133,WS_17927,2019-01-03 00:00:00,morning,heavy rain,5,2,96,88,208,26
+135,WS_17951,2019-01-03 00:00:00,morning,light intensity shower rain,14,6,76,49,211,18
+137,WS_17952,2019-01-03 00:00:00,morning,sleet,4,-2,82,66,203,12
+139,WS_17953,2019-01-03 00:00:00,morning,light intensity shower rain,15,7,76,49,204,24
+141,WS_17954,2019-01-03 00:00:00,morning,heavy rain,15,9,74,50,194,31
+143,WS_17970,2019-01-03 00:00:00,morning,light intensity shower rain,15,6,74,53,275,23
+145,WS_17974,2019-01-03 00:00:00,morning,heavy rain,15,9,88,54,217,37
+147,WS_18012,2019-01-03 00:00:00,morning,heavy rain,7,4,96,87,203,18
+149,WS_18016,2019-01-03 00:00:00,morning,light intensity shower rain,13,5,93,51,303,10
+151,WS_18023,2019-01-03 00:00:00,morning,heavy rain,11,4,92,52,212,12
+153,WS_18025,2019-01-03 00:00:00,morning,heavy rain,9,3,92,44,209,15
+155,WS_18026,2019-01-03 00:00:00,morning,heavy rain,11,3,91,52,255,13
+157,WS_18027,2019-01-03 00:00:00,morning,heavy rain,11,2,96,49,224,10
+159,WS_18047,2019-01-03 00:00:00,morning,heavy rain,6,3,96,92,186,26
+161,WS_18229,2019-01-03 00:00:00,morning,rain,14,3,96,56,185,14
+163,WS_18232,2019-01-03 00:00:00,morning,rain,17,5,90,51,100,7
+165,WS_18233,2019-01-03 00:00:00,morning,rain,17,8,89,50,301,17
+167,WS_18306,2019-01-03 00:00:00,morning,light intensity shower rain,15,9,80,53,187,32
+169,WS_18425,2019-01-03 00:00:00,morning,heavy rain,9,4,95,64,233,12
+171,WS_18426,2019-01-03 00:00:00,morning,heavy rain,10,6,90,57,250,11
+173,WS_18427,2019-01-03 00:00:00,morning,heavy rain,11,3,90,51,244,13
+175,WS_18428,2019-01-03 00:00:00,morning,heavy rain,10,3,91,69,240,16
+177,WS_18429,2019-01-03 00:00:00,morning,heavy rain,9,5,90,68,249,14
+179,WS_18430,2019-01-03 00:00:00,morning,heavy rain,9,4,94,73,240,17
+181,WS_18573,2019-01-03 00:00:00,morning,rain,15,6,84,52,296,25
+183,WS_18574,2019-01-03 00:00:00,morning,rain,17,6,87,49,59,11
+185,WS_18840,2019-01-03 00:00:00,morning,snow,-1,-4,94,66,238,9
+187,WS_19124,2019-01-03 00:00:00,morning,heavy rain,10,2,96,54,233,13
+189,WS_19246,2019-01-03 00:00:00,morning,rain,14,4,96,58,173,26
+191,WS_19247,2019-01-03 00:00:00,morning,rain,15,5,96,55,157,16
+193,WS_17038,2019-01-04 00:00:00,morning,rain,10,6,,,,
+195,WS_17232,2019-01-04 00:00:00,morning,rain,11,7,,,,
+197,WS_17233,2019-01-04 00:00:00,morning,rain,11,8,,,,
+199,WS_17234,2019-01-04 00:00:00,morning,rain,9,5,,,,
+201,WS_17300,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,14,6,,,,
+203,WS_17310,2019-01-04 00:00:00,morning,heavy thunderstorm with rain showers,15,11,,,,
+205,WS_17375,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,15,8,,,,
+207,WS_17380,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,13,8,,,,
+209,WS_17465,2019-01-04 00:00:00,morning,overcast clouds,11,6,,,,
+211,WS_17569,2019-01-04 00:00:00,morning,snow,6,3,,,,
+213,WS_17626,2019-01-04 00:00:00,morning,rain,11,6,,,,
+215,WS_17714,2019-01-04 00:00:00,morning,sleet,7,1,,,,
+217,WS_17775,2019-01-04 00:00:00,morning,rain,11,4,,,,
+219,WS_17850,2019-01-04 00:00:00,morning,rain,8,4,,,,
+221,WS_17860,2019-01-04 00:00:00,morning,rain,7,4,,,,
+223,WS_17881,2019-01-04 00:00:00,morning,rain,9,6,,,,
+225,WS_17915,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,15,9,,,,
+227,WS_17926,2019-01-04 00:00:00,morning,snow,6,-1,,,,
+229,WS_17927,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,5,2,,,,
+231,WS_17951,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,14,5,,,,
+233,WS_17952,2019-01-04 00:00:00,morning,snow,3,-2,,,,
+235,WS_17953,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,14,7,,,,
+237,WS_17954,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,15,7,,,,
+239,WS_17970,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,14,5,,,,
+241,WS_17974,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,14,9,,,,
+243,WS_18012,2019-01-04 00:00:00,morning,heavy thunderstorm with rain showers,7,4,,,,
+245,WS_18016,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,12,5,,,,
+247,WS_18023,2019-01-04 00:00:00,morning,rain,9,3,,,,
+249,WS_18025,2019-01-04 00:00:00,morning,rain,7,3,,,,
+251,WS_18026,2019-01-04 00:00:00,morning,rain,8,5,,,,
+253,WS_18027,2019-01-04 00:00:00,morning,rain,9,3,,,,
+255,WS_18047,2019-01-04 00:00:00,morning,heavy thunderstorm with rain showers,5,3,,,,
+257,WS_18229,2019-01-04 00:00:00,morning,rain,9,3,,,,
+259,WS_18232,2019-01-04 00:00:00,morning,rain,9,4,,,,
+261,WS_18233,2019-01-04 00:00:00,morning,rain,10,6,,,,
+263,WS_18306,2019-01-04 00:00:00,morning,thunderstorm with heavy rain,13,10,,,,
+265,WS_18425,2019-01-04 00:00:00,morning,rain,8,3,,,,
+267,WS_18426,2019-01-04 00:00:00,morning,rain,9,6,,,,
+269,WS_18427,2019-01-04 00:00:00,morning,rain,10,4,,,,
+271,WS_18428,2019-01-04 00:00:00,morning,rain,9,3,,,,
+273,WS_18429,2019-01-04 00:00:00,morning,rain,8,4,,,,
+275,WS_18430,2019-01-04 00:00:00,morning,rain,9,3,,,,
+277,WS_18573,2019-01-04 00:00:00,morning,rain,9,5,,,,
+279,WS_18574,2019-01-04 00:00:00,morning,rain,9,5,,,,
+281,WS_18840,2019-01-04 00:00:00,morning,snow,0,-4,,,,
+283,WS_19124,2019-01-04 00:00:00,morning,rain,8,4,,,,
+285,WS_19246,2019-01-04 00:00:00,morning,rain,10,3,,,,
+287,WS_19247,2019-01-04 00:00:00,morning,rain,10,4,,,,
+289,WS_17038,2019-01-05 00:00:00,morning,rain,9,6,,,,
+291,WS_17232,2019-01-05 00:00:00,morning,overcast clouds,9,4,,,,
+293,WS_17233,2019-01-05 00:00:00,morning,overcast clouds,9,5,,,,
+295,WS_17234,2019-01-05 00:00:00,morning,overcast clouds,8,2,,,,
+297,WS_17300,2019-01-05 00:00:00,morning,heavy rain,12,4,,,,
+299,WS_17310,2019-01-05 00:00:00,morning,heavy rain,14,9,,,,
+301,WS_17375,2019-01-05 00:00:00,morning,heavy rain,14,6,,,,
+303,WS_17380,2019-01-05 00:00:00,morning,heavy rain,13,7,,,,
+305,WS_17465,2019-01-05 00:00:00,morning,overcast clouds,9,6,,,,
+307,WS_17569,2019-01-05 00:00:00,morning,snow,5,2,,,,
+309,WS_17626,2019-01-05 00:00:00,morning,rain,8,6,,,,
+311,WS_17714,2019-01-05 00:00:00,morning,snow,4,1,,,,
+313,WS_17775,2019-01-05 00:00:00,morning,rain,9,6,,,,
+315,WS_17850,2019-01-05 00:00:00,morning,overcast clouds,8,2,,,,
+317,WS_17860,2019-01-05 00:00:00,morning,overcast clouds,7,3,,,,
+319,WS_17881,2019-01-05 00:00:00,morning,overcast clouds,8,3,,,,
+321,WS_17915,2019-01-05 00:00:00,morning,heavy rain,12,4,,,,
+323,WS_17926,2019-01-05 00:00:00,morning,snow,2,-4,,,,
+325,WS_17927,2019-01-05 00:00:00,morning,snow,2,-1,,,,
+327,WS_17951,2019-01-05 00:00:00,morning,heavy rain,13,5,,,,
+329,WS_17952,2019-01-05 00:00:00,morning,snow,0,-5,,,,
+331,WS_17953,2019-01-05 00:00:00,morning,heavy rain,12,5,,,,
+333,WS_17954,2019-01-05 00:00:00,morning,heavy rain,12,5,,,,
+335,WS_17970,2019-01-05 00:00:00,morning,heavy rain,13,6,,,,
+337,WS_17974,2019-01-05 00:00:00,morning,heavy rain,12,8,,,,
+339,WS_18012,2019-01-05 00:00:00,morning,snow,3,0,,,,
+341,WS_18016,2019-01-05 00:00:00,morning,heavy rain,11,3,,,,
+343,WS_18023,2019-01-05 00:00:00,morning,overcast clouds,8,2,,,,
+345,WS_18025,2019-01-05 00:00:00,morning,sleet,4,0,,,,
+347,WS_18026,2019-01-05 00:00:00,morning,overcast clouds,9,1,,,,
+349,WS_18027,2019-01-05 00:00:00,morning,overcast clouds,7,1,,,,
+351,WS_18047,2019-01-05 00:00:00,morning,snow,2,-1,,,,
+353,WS_18229,2019-01-05 00:00:00,morning,rain,7,2,,,,
+355,WS_18232,2019-01-05 00:00:00,morning,rain,7,5,,,,
+357,WS_18233,2019-01-05 00:00:00,morning,rain,9,5,,,,
+359,WS_18306,2019-01-05 00:00:00,morning,heavy rain,12,6,,,,
+361,WS_18425,2019-01-05 00:00:00,morning,sleet,7,2,,,,
+363,WS_18426,2019-01-05 00:00:00,morning,overcast clouds,8,2,,,,
+365,WS_18427,2019-01-05 00:00:00,morning,overcast clouds,9,2,,,,
+367,WS_18428,2019-01-05 00:00:00,morning,overcast clouds,8,1,,,,
+369,WS_18429,2019-01-05 00:00:00,morning,sleet,7,3,,,,
+371,WS_18430,2019-01-05 00:00:00,morning,overcast clouds,8,2,,,,
+373,WS_18573,2019-01-05 00:00:00,morning,rain,7,5,,,,
+375,WS_18574,2019-01-05 00:00:00,morning,rain,8,6,,,,
+377,WS_18840,2019-01-05 00:00:00,morning,snow,-5,-8,,,,
+379,WS_19124,2019-01-05 00:00:00,morning,overcast clouds,8,1,,,,
+381,WS_19246,2019-01-05 00:00:00,morning,rain,6,2,,,,
+383,WS_19247,2019-01-05 00:00:00,morning,rain,8,3,,,,
+385,WS_17038,2019-01-06 00:00:00,morning,rain,9,6,86,75,322,10
+387,WS_17232,2019-01-06 00:00:00,morning,rain,9,2,80,57,46,14
+389,WS_17233,2019-01-06 00:00:00,morning,rain,9,3,83,73,264,8
+391,WS_17234,2019-01-06 00:00:00,morning,overcast clouds,8,1,86,54,71,7
+393,WS_17300,2019-01-06 00:00:00,morning,heavy rain,10,2,83,41,346,14
+395,WS_17310,2019-01-06 00:00:00,morning,heavy rain,13,6,81,50,95,16
+397,WS_17375,2019-01-06 00:00:00,morning,heavy rain,13,5,80,54,246,13
+399,WS_17380,2019-01-06 00:00:00,morning,heavy rain,12,6,75,54,262,16
+401,WS_17465,2019-01-06 00:00:00,morning,overcast clouds,9,6,89,73,132,12
+403,WS_17569,2019-01-06 00:00:00,morning,snow,2,-2,90,74,157,11
+405,WS_17626,2019-01-06 00:00:00,morning,rain,9,5,81,71,263,18
+407,WS_17714,2019-01-06 00:00:00,morning,snow,2,-2,91,73,185,8
+409,WS_17775,2019-01-06 00:00:00,morning,rain,9,3,91,79,134,13
+411,WS_17850,2019-01-06 00:00:00,morning,rain,8,0,84,58,57,6
+413,WS_17860,2019-01-06 00:00:00,morning,sleet,7,0,85,56,43,5
+415,WS_17881,2019-01-06 00:00:00,morning,rain,8,2,83,62,54,6
+417,WS_17915,2019-01-06 00:00:00,morning,heavy rain,13,2,80,43,30,14
+419,WS_17926,2019-01-06 00:00:00,morning,scattered clouds,4,-6,79,46,225,10
+421,WS_17927,2019-01-06 00:00:00,morning,snow,3,-7,86,54,349,7
+423,WS_17951,2019-01-06 00:00:00,morning,heavy rain,12,2,79,60,198,11
+425,WS_17952,2019-01-06 00:00:00,morning,scattered clouds,2,-8,82,56,78,5
+427,WS_17953,2019-01-06 00:00:00,morning,heavy rain,12,5,81,55,354,16
+429,WS_17954,2019-01-06 00:00:00,morning,heavy rain,12,6,74,42,91,14
+431,WS_17970,2019-01-06 00:00:00,morning,heavy rain,12,4,71,55,252,17
+433,WS_17974,2019-01-06 00:00:00,morning,heavy rain,12,4,83,64,82,13
+435,WS_18012,2019-01-06 00:00:00,morning,snow,5,-5,85,57,55,7
+437,WS_18016,2019-01-06 00:00:00,morning,heavy rain,11,1,74,41,314,10
+439,WS_18023,2019-01-06 00:00:00,morning,rain,8,-2,82,54,229,7
+441,WS_18025,2019-01-06 00:00:00,morning,sleet,5,-3,88,57,115,6
+443,WS_18026,2019-01-06 00:00:00,morning,rain,9,0,86,54,93,7
+445,WS_18027,2019-01-06 00:00:00,morning,sleet,7,-2,88,65,186,5
+447,WS_18047,2019-01-06 00:00:00,morning,snow,3,-8,90,55,158,11
+449,WS_18229,2019-01-06 00:00:00,morning,sleet,4,1,96,76,253,7
+451,WS_18232,2019-01-06 00:00:00,morning,sleet,6,4,96,86,139,10
+453,WS_18233,2019-01-06 00:00:00,morning,rain,9,5,91,75,169,8
+455,WS_18306,2019-01-06 00:00:00,morning,heavy rain,12,2,80,43,38,15
+457,WS_18425,2019-01-06 00:00:00,morning,sleet,7,0,82,56,9,4
+459,WS_18426,2019-01-06 00:00:00,morning,rain,8,0,86,56,82,7
+461,WS_18427,2019-01-06 00:00:00,morning,sleet,9,-1,89,57,108,7
+463,WS_18428,2019-01-06 00:00:00,morning,sleet,8,-1,87,57,68,6
+465,WS_18429,2019-01-06 00:00:00,morning,sleet,8,0,87,57,49,6
+467,WS_18430,2019-01-06 00:00:00,morning,sleet,8,-1,86,59,37,5
+469,WS_18573,2019-01-06 00:00:00,morning,rain,8,4,81,64,253,36
+471,WS_18574,2019-01-06 00:00:00,morning,rain,9,5,93,77,131,13
+473,WS_18840,2019-01-06 00:00:00,morning,snow,-3,-10,80,58,244,6
+475,WS_19124,2019-01-06 00:00:00,morning,sleet,8,-1,90,58,228,6
+477,WS_19246,2019-01-06 00:00:00,morning,snow,5,2,95,85,30,7
+479,WS_19247,2019-01-06 00:00:00,morning,sleet,4,1,92,78,230,11
+481,WS_17038,2019-01-07 00:00:00,morning,rain,10,6,83,59,181,15
+483,WS_17232,2019-01-07 00:00:00,morning,scattered clouds,6,1,77,51,15,20
+485,WS_17233,2019-01-07 00:00:00,morning,scattered clouds,7,1,72,53,346,27
+487,WS_17234,2019-01-07 00:00:00,morning,overcast clouds,6,0,75,49,306,9
+489,WS_17300,2019-01-07 00:00:00,morning,heavy rain,10,4,82,37,332,28
+491,WS_17310,2019-01-07 00:00:00,morning,heavy rain,13,6,86,63,133,25
+493,WS_17375,2019-01-07 00:00:00,morning,heavy rain,13,5,77,46,353,11
+495,WS_17380,2019-01-07 00:00:00,morning,heavy rain,12,5,79,41,291,19
+497,WS_17465,2019-01-07 00:00:00,morning,overcast clouds,10,5,81,60,183,14
+499,WS_17569,2019-01-07 00:00:00,morning,snow,6,-3,85,77,151,19
+501,WS_17626,2019-01-07 00:00:00,morning,rain,11,4,86,59,265,13
+503,WS_17714,2019-01-07 00:00:00,morning,light snow,5,-3,85,71,177,11
+505,WS_17775,2019-01-07 00:00:00,morning,rain,10,2,88,63,177,12
+507,WS_17850,2019-01-07 00:00:00,morning,overcast clouds,6,-1,75,48,29,12
+509,WS_17860,2019-01-07 00:00:00,morning,overcast clouds,5,0,77,49,16,12
+511,WS_17881,2019-01-07 00:00:00,morning,scattered clouds,6,1,76,48,350,17
+513,WS_17915,2019-01-07 00:00:00,morning,heavy rain,10,4,83,44,316,30
+515,WS_17926,2019-01-07 00:00:00,morning,light snow,2,-3,74,61,318,17
+517,WS_17927,2019-01-07 00:00:00,morning,snow,1,-2,89,71,18,15
